@@ -1,0 +1,26 @@
+.list-item {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+    row-gap: 40px;
+}
+.group-button {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    .next,
+    .prev {
+        padding: 10px 20px;
+        background-color: #346abd;
+        border: 2px solid #ffcd00;
+        color: #fff;
+        font-weight: 900;
+        border-radius: 8px;
+        margin-left: 20px;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.02);
+            transition: all 0.25s linear;
+        }
+    }
+}

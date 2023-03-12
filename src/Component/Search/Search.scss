@@ -1,0 +1,22 @@
+.input {
+    position: relative;
+    padding: 10px 20px;
+    min-width: 350px;
+    border-radius: 8px;
+    outline: #346abd;
+    border: 2px solid #ffcd00;
+    margin-top: 24px;
+    box-shadow: 0px 0px 4px #346abd, 0px 0px 4px #346abd, 0px 0px 4px #346abd,
+        0px 0px 4px #346abd, 0px 0px 4px #346abd, 0px 0px 4px #346abd,
+        0px 0px 4px #346abd;
+    color: #ffcd00;
+    text-shadow: 0px 0px 2px #346abd, 0px 0px 2px #346abd, 0px 0px 2px #346abd,
+        0px 0px 2px #346abd, 0px 0px 2px #346abd, 0px 0px 2px #346abd,
+        0px 0px 2px #346abd;
+    &::placeholder {
+        color: #ffcd00;
+        text-shadow: 0px 0px 2px #346abd, 0px 0px 2px #346abd,
+            0px 0px 2px #346abd, 0px 0px 2px #346abd, 0px 0px 2px #346abd,
+            0px 0px 2px #346abd, 0px 0px 2px #346abd;
+    }
+}

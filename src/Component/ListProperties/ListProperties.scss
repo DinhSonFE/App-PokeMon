@@ -1,0 +1,27 @@
+.list-properties {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 40px;
+    row-gap: 40px;
+    .button {
+        padding: 8px 12px;
+        min-width: 120px;
+        border-radius: 8px;
+        background-color: #8cd88c;
+        border: 2px solid transparent;
+        color: #fff;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 2px;
+        cursor: pointer;
+        font-family: "Poppins";
+        &:hover {
+            transform: scale(1.05);
+            transition: all 0.25s linear;
+        }
+    }
+}
+.active {
+    border: 2px solid red !important;
+}

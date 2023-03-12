@@ -1,0 +1,87 @@
+.item {
+    min-width: 250px;
+    min-height: 300px;
+    padding: 20px;
+    border: 4px solid #346abd;
+    border-radius: 8px;
+    background-color: #ffcc0024;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 0 8px #ffcc00fe, 0 0 8px #ffcc00fe, 0 0 8px #ffcc00fe,
+            0 0 8px #ffcc00fe;
+        transition: all 0.25s linear;
+    }
+}
+
+.item-key {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #346abd;
+    border-radius: inherit;
+    font-size: 24px;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    color: #fff;
+    font-weight: 900;
+    background-color: #ffcc00fe;
+}
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+.group-prop {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.prop-item {
+    padding: 4px 6px;
+    background-color: #346abd;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 2px solid #ffcc00fe;
+}
+.img-poke {
+    transform: scale(0.5);
+    object-fit: cover;
+}
+.container-info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name-poke {
+    color: #ffcc00fe;
+    text-shadow: 0px 0px 4px #346abd, 0px 0px 4px #346abd, 0px 0px 4px #346abd,
+        0px 0px 4px #346abd, 0px 0px 4px #346abd, 0px 0px 4px #346abd,
+        0px 0px 4px #346abd;
+    font-size: 30px;
+}
+.hp-poke {
+    color: red;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.attack-poke {
+    font-weight: 600;
+    margin-top: 8px;
+    color: rgb(255, 140, 0);
+}
+.defence-poke {
+    font-weight: 600;
+    margin-top: 8px;
+    color: black;
+}
